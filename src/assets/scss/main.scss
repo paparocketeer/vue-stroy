@@ -1,0 +1,54 @@
+@import 'normalize';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body, html {
+    font-family: $font-family;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #000;
+  } 
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .fade-enter-active,
+.fade-leave-active {
+  transition: all 0.3s ease;
+}
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+  will-change: opacity;
+  transform: translateY(-30px);
+}
+
+/* clears the 'X' from Chrome */
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration { display: none; }
+
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (min-width: $screen-lg) {
+    max-width: $container-lg;
+    padding: 0;
+  }
+
+  @media (min-width: $screen-xl) {
+    max-width: $container-xl;
+  }
+
+  @media (min-width: $screen-xxl) {
+    max-width: $container-xxl;
+  }
+  
+}
