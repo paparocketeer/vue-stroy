@@ -1,5 +1,11 @@
 # vue-stroy
 
+Vue.js Stroyportal test app
+
+[Demo](https://vue-stroyportal.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1a10fc21-6d83-4a7c-84b2-26fd32fe07f3/deploy-status)](https://app.netlify.com/sites/vue-stroyportal/deploys)
+
 ## Project setup
 ```
 npm install
